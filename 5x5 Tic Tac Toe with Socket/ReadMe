@@ -1,0 +1,19 @@
+Jarosław Socha
+
+Pliki:
+
+Makefile
+board.h		// zasady i obsługa gry
+game_client.c	// klient z botem dla gry
+minimax.h   // algorytmy minimax i heurystyka
+
+kompilacja:
+
+make
+
+Wywołanie klienta:
+
+./game_client <numer ip> <numer portu> <gracz> <głębokość>
+
+gracz: 1 dla X lub 2 dla O.
+głębokość: od 1 do 10
